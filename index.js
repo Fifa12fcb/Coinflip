@@ -1,6 +1,4 @@
 const { flip, crash } = require('./handler/load_objects');
-
-//const flip = require('./Objects/coin');
 const ready = require('./Event/ready');
 
 const readline = require('readline');

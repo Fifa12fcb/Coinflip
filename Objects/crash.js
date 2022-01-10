@@ -11,7 +11,8 @@ class crash {
         return Math.floor(Math.random() * (1000 - 100) + 100) / 100;
     }
     getWinnings() {
-        console.log(this.number)
+        logger.text(`You bet ${this.betamount} on ${this.bet}`);
+        logger.text(`The number is ${this.number}`);
         return this.bet < this.number ? logger.win(`Yon won ${this.betamount * 2}`) : logger.loss(`You lost ${this.betamount}`);
     }
 }

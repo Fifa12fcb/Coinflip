@@ -7,7 +7,7 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-let crash1 = new crash(9.4, 100);
+let crash1 = new crash(1.4, 100);
 
 //rl.question('How much do you want to bet? ', (betAmount) => {
 //    if (betAmount.match(/^\d+$/)) {
